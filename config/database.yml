@@ -1,0 +1,22 @@
+default: &default
+ adapter: postgresql
+ encoding: unicode
+ pool: 5
+
+development:
+ <<: *default
+ database: what_new_rails_5_1_development
+ username: postgres
+ password: postgres
+
+test:
+ <<: *default
+ database: what_new_rails_5_1_test
+ username: postgres
+ password: postgres
+
+production:
+  <<: *default
+  database: what_new_rails_5_1_production
+  username: postgres
+  password: postgres
