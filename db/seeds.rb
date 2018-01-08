@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+10.times { |i|
+  User.create(
+    first_name: "first name #{i}",
+              last_name: "last name #{i}",
+              email: "email#{i}@example.com"
+  ).tap { |user|
+    5.times { |p|
+      user.posts.create(
+        title: "Post title #{p}",
+        body: "Post body #{p}"
+      )
+    }
+  }
+}
