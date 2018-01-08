@@ -14,4 +14,5 @@
 //= require turbolinks
 //= require users
 //= require posts
+//= require bootstrap/dist/js/bootstrap
 //= require_tree .
