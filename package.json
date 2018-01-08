@@ -1,5 +1,13 @@
 {
-  "name": "what_new_rails_5_1",
+  "name": "yes",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "version": "yes",
+  "description": "no",
+  "main": "yes",
+  "repository": "yes",
+  "author": "yes",
+  "license": "yes"
 }
