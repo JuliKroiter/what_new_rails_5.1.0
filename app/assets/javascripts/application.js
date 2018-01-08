@@ -13,4 +13,5 @@
 //= require rails-ujs
 //= require turbolinks
 //= require users
+//= require posts
 //= require_tree .
